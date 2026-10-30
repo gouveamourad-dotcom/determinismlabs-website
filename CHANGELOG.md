@@ -1,0 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
+
+## [0.1.0] - 2026-10-30
+
+### Added
+- Landing page (hero, approach, opportunity sections) with the 36-second procedural motion scene, taken from the brand concept page.
+- Manrope and IBM Plex Mono web fonts with their OFL licenses, wordmark and favicon.
+- GitHub Pages deployment with the custom domain determinismlabs.ai (CNAME), robots.txt and sitemap.xml.
+
+### Changed
+- Logo link points to the site root instead of the internal brand guide; footer shows a copyright line instead of the brand-concept link.
+- Meta description rewritten for the live site.
