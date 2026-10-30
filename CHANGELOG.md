@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.2.0] - 2026-10-30
+
+### Added
+- Contact popup ("Get in touch"): name, email, company and message fields, honeypot anti-spam, thank-you state and a direct email fallback. Submissions are relayed to contact@determinismlabs.ai through Web3Forms.
+- determinismlabs.com forwards permanently (301) to https://determinismlabs.ai (configured at GoDaddy).
+
+### Changed
+- The navigation button "Find your opportunity" is now "Get in touch" and opens the popup; the bottom "Get in touch" button opens the same popup instead of launching the mail app.
+
 ## [0.1.0] - 2026-10-30
 
 ### Added
