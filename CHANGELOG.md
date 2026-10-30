@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 ## [0.2.0] - 2026-10-30
 
 ### Added
-- Contact popup ("Get in touch"): name, email, company and message fields, honeypot anti-spam, thank-you state and a direct email fallback. Submissions are relayed to contact@determinismlabs.ai through Web3Forms.
+- Contact popup ("Get in touch"): name, email, company and message fields, all required, honeypot anti-spam, thank-you state and a direct email fallback. Submissions are relayed to contact@determinismlabs.ai through Web3Forms.
 - determinismlabs.com forwards permanently (301) to https://determinismlabs.ai (configured at GoDaddy).
 
 ### Changed
