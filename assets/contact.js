@@ -28,7 +28,7 @@
     new FormData(form).forEach(function(v,k){if(k!=='_hp')data[k]=v;});
     submit.disabled=true;
     status.classList.remove('error');
-    status.textContent='Sending…';
+    status.textContent=form.getAttribute('data-sending')||'Sending…';
     fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
       .then(function(r){return r.json().catch(function(){return {};}).then(function(j){return {ok:r.ok,json:j};});})
       .then(function(res){
@@ -40,7 +40,7 @@
       })
       .catch(function(){
         status.classList.add('error');
-        status.textContent='Something went wrong. Please email us directly at contact@determinismlabs.ai.';
+        status.textContent=form.getAttribute('data-error')||'Something went wrong. Please email us directly at contact@determinismlabs.ai.';
       })
       .then(function(){submit.disabled=false;});
   });

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.3.0] - 2026-10-30
+
+### Added
+- Brazilian Portuguese version of the site at /pt/ (page copy, contact popup, status messages and form subject translated).
+- Language detection: a browser whose first preferred language is Portuguese is sent to /pt/ on the first visit; a PT / EN switch in the header lets anyone override, and the choice is remembered on that device.
+- hreflang and canonical tags on both pages, and both URLs in the sitemap, so search engines index each language separately.
+- Hidden "language" field in the contact form so each message says which version it came from.
+
 ## [0.2.1] - 2026-10-30
 
 ### Changed

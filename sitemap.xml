@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://determinismlabs.ai/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://determinismlabs.ai/</loc><xhtml:link rel="alternate" hreflang="en" href="https://determinismlabs.ai/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://determinismlabs.ai/pt/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://determinismlabs.ai/"/></url>
+<url><loc>https://determinismlabs.ai/pt/</loc><xhtml:link rel="alternate" hreflang="en" href="https://determinismlabs.ai/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://determinismlabs.ai/pt/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://determinismlabs.ai/"/></url>
+</urlset>
