@@ -23,9 +23,9 @@
   form.addEventListener('submit',function(e){
     e.preventDefault();
     if(!form.reportValidity())return;
-    if(form.querySelector('input[name=_hp]').value)return;
+    if(form.querySelector('input[name=botcheck]').value)return;
     var data={};
-    new FormData(form).forEach(function(v,k){if(k!=='_hp')data[k]=v;});
+    new FormData(form).forEach(function(v,k){if(k!=='botcheck')data[k]=v;});
     submit.disabled=true;
     status.classList.remove('error');
     status.textContent=form.getAttribute('data-sending')||'Sending…';

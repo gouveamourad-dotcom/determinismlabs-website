@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.3.1] - 2026-10-30
+
+### Fixed
+- The contact form honeypot field is now named `botcheck`, the name Web3Forms' own server-side filter looks for; it was `_hp`, which only the page script checked, so API-level bots passed through.
+- Content-Security-Policy and a referrer policy are declared on both pages via meta tags, restricting scripts, styles and fonts to the site itself and connections to the Web3Forms endpoint.
+
 ## [0.3.0] - 2026-10-30
 
 ### Added
