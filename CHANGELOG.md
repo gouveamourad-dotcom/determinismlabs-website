@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.4.0] - 2026-11-02
+
+### Added
+- Team section below "The approach", in English and Portuguese: founder photo, bio, a monochrome logo strip (MIT, GP Investments, BTG Pactual, Gradus) and a four-step career timeline. Copy adapted from the institutional deck's "Quem somos nós" slide.
+- "Team" / "Time" link in the header navigation.
+
+### Changed
+- "Find your starting point" is now section 04.
+
 ## [0.3.1] - 2026-10-30
 
 ### Fixed
