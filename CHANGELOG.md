@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.4.1] - 2026-11-02
+
+### Fixed
+- The hero button ("Explore what’s possible" / "Explore o que é possível") now scrolls to section 01, the engineering principle, instead of skipping to section 02.
+
 ## [0.4.0] - 2026-11-02
 
 ### Added
