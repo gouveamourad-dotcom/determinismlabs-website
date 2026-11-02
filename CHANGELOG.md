@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 ## [0.4.0] - 2026-11-02
 
 ### Added
-- Team section below "The approach", in English and Portuguese: founder photo, bio, and the career logos (MIT, GP Investments, BTG Pactual, Gradus) in full color on light tiles beside the text, laid out in one row on wide screens. Below it, "One founder, ten AI agents": a chief of staff plus agents across finance, growth, operations and engineering, with the robot avatars from the institutional deck. Copy adapted from the institutional deck's "Quem somos nós" slide.
+- Team section below "The approach", in English and Portuguese: founder photo, bio, and the career logos (MIT, GP Investments, BTG Pactual, Gradus) in brand colors lightened for the dark background, in a row under the bio. The section keeps a 20% label column like "The approach" and caps its content width on large screens. Below it, "One founder, ten AI agents": a chief of staff plus agents across finance, growth, operations and engineering, with the robot avatars from the institutional deck. Copy adapted from the institutional deck's "Quem somos nós" slide.
 - "Team" / "Time" link in the header navigation.
 
 ### Changed
