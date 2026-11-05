@@ -1,0 +1,27 @@
+/* Only the opening scene and requested header height differ from the original site. */
+.nav{height:64px}
+.office-hero{--office-gutter:clamp(24px,5.6vw,96px);display:block;height:calc(100svh - 64px);min-height:600px;max-height:1100px;padding:0;position:relative;isolation:isolate;overflow:hidden;background:#555e5b;line-height:1.65}
+.office-hero .office-photo,.office-hero .office-photo img,.office-hero .office-shade{position:absolute;inset:0;width:100%;height:100%}
+.office-hero .office-photo{z-index:-3}
+.office-hero .office-photo img{display:block;object-fit:cover;object-position:55% 60%}
+.office-hero .office-shade{z-index:-2;background:linear-gradient(90deg,rgba(24,29,32,.60),rgba(24,29,32,.43) 32%,rgba(24,29,32,.10) 58%,transparent 79%),linear-gradient(0deg,rgba(24,29,32,.16),transparent 25%)}
+.office-hero .hero-copy{padding:clamp(66px,9vh,125px) var(--office-gutter) 130px;max-width:930px}
+.office-hero h1{font-size:clamp(68px,7.25vw,116px);font-weight:450;letter-spacing:-.06em;line-height:1.02;margin:0}
+.office-hero .hero-copy p{font-size:18px;line-height:1.6;max-width:355px;margin:30px 0 35px;color:var(--chalk)}
+.office-hero .button{border:0;border-radius:0;min-height:56px;padding:14px 23px;font-size:13px;gap:38px;transition:background .2s,transform .2s}
+.office-hero .button span{font-size:22px;font-weight:400;line-height:1}
+.office-hero .button:hover{transform:translateY(-2px)}
+.office-hero .office-scroll{position:absolute;bottom:32px;right:var(--office-gutter);width:43px;height:43px;border:1px solid #f0efe96b;display:grid;place-items:center;font-size:23px;text-decoration:none}
+.office-hero .office-scroll:hover{background:var(--graphite)}
+@media(prefers-reduced-motion:no-preference){.office-hero .office-photo img{animation:office-horizon 3.2s cubic-bezier(.2,.7,.2,1) both}.office-hero .hero-copy{animation:office-arrival 1s .12s ease-out both}@keyframes office-horizon{from{opacity:.6;transform:scale(1.045)}to{opacity:1;transform:scale(1)}}@keyframes office-arrival{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}}
+@media(min-width:1800px){.office-hero .hero-copy{max-width:1000px}}
+@media(max-width:1000px){.office-hero h1{font-size:76px}.office-hero .hero-copy{padding-top:80px}}
+@media(max-width:640px){.nav{height:60px}.office-hero{height:calc(100svh - 60px);min-height:700px;max-height:900px}.office-hero .hero-copy{padding:60px var(--office-gutter) 180px}.office-hero h1{font-size:clamp(45px,11.1vw,68px);line-height:1.06}.office-hero .hero-copy p{font-size:16px;max-width:285px;margin:25px 0 28px}.office-hero .office-photo img{object-position:58% center}.office-hero .office-shade{background:linear-gradient(180deg,rgba(24,29,32,.68),rgba(24,29,32,.44) 42%,rgba(24,29,32,.05) 66%,transparent 82%)}.office-hero .button{font-size:12px;gap:30px;min-height:54px}.office-hero .office-scroll{bottom:24px;width:38px;height:38px}}
+@media(max-width:359px){.office-hero h1{font-size:43px}}
+
+/* Two opening actions: contact first, approach second. */
+.office-hero .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;pointer-events:auto}
+.office-hero .hero-secondary{background:rgba(24,29,32,.2);color:var(--chalk);border:1px solid rgba(240,239,233,.65)}
+.office-hero .hero-secondary:hover{background:var(--chalk);color:var(--graphite)}
+@media(max-width:640px){.office-hero .hero-actions .button{padding:14px 16px;gap:16px}}
+@media(max-width:359px){.office-hero .hero-actions{gap:10px}.office-hero .hero-actions .button{padding:12px;font-size:11px;gap:8px}.office-hero .hero-actions .button span{font-size:18px}}

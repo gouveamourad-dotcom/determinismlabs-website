@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/) and this project adheres to Semantic Versioning.
 
+## [0.5.0] - 2026-11-05
+
+### Changed
+- Replaced the introductory 3D animation with the approved office couch and skyline artwork, with responsive images and reduced-motion support.
+- Reduced the navigation bar height to 64px on desktop and 60px on mobile.
+- The main "Get in touch" / "Fale conosco" button opens the existing contact form. A secondary "Learn more" / "Saiba mais" button scrolls to The approach.
+- Removed the engineering-principle section and renumbered the remaining sections in both languages.
+- Preserved the existing approach, team, contact form, footer, and language navigation.
+
 ## [0.4.1] - 2026-11-02
 
 ### Fixed
